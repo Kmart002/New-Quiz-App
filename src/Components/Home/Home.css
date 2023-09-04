@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.heading{
+    background-image: url("../../Images/pexels-monstera-7411969\ \(1\).jpg" );
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    width:100%;
+    height:100svh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#section{
+    background-color: #23323b;
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.container{
+    background-color: #14125d;
+    width: 80%;
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+.kwiz{
+    height: 12rem;
+    width: 12rem;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    color: aliceblue;
+    margin-bottom: 4rem;
+}
+.play{
+    width: 90%;
+    height: 5rem;
+    background-color: green;
+    border-radius: 8px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 23px;
+    text-align: center;
+}
+.loginsignup{
+   display: flex;
+   gap: 14rem;
+}
+.lol{
+  background-color: brown;
+  color: aliceblue;
+  border: none;
+  width: 11rem;
+  height: 4rem;
+  /* padding-bottom: 50px; */
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+
+.sig{
+    background-color: #545c8d;
+    color: aliceblue;
+    border: none;
+    width: 10rem;
+    height: 4rem;
+    /* padding-bottom: 50px; */
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 640px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      
+    }
+    .heading{
+        background-image: url("../../Images/pexels-monstera-7411969\ \(1\).jpg");
+        background-repeat: no-repeat;
+        background-size: cover ;
+        position: fixed;
+        bottom: auto;
+        background-position: center;
+        width:30rem;
+        height:100svh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    #section{
+    background-color: #23323b;
+    height: 90svh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    }
+    .container{
+        background-color: #14125d;
+        width: 90%;
+        height: 80vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        border-radius: 20px;
+        margin-bottom: 2rem;
+        overflow: hidden;
+    }
+    .kwiz{
+        height: 12rem;
+        width: 12rem;
+    }
+    h1{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    color: aliceblue;
+    margin-bottom: 9rem;
+    }
+    .play{
+        width: 90%;
+        height: 5rem;
+        background-color: rgb(60, 155, 60);
+        border-radius: 8px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-weight: bolder;
+        font-size: 25px;
+        font-weight: bolder;
+        /* margin-bottom: 80px; */
+    }
+    .loginsignup{
+       display: flex;
+       gap: 2rem;
+    }
+    .lol{
+      background-color: brown;
+      color: aliceblue;
+      border: none;
+      width: 9rem;
+      height: 4rem;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: bolder;
+      font-size: 24px;
+    }
+    .sig{
+        background-color: #545c8d;
+        color: aliceblue;
+        border: none;
+        width: 9rem;
+        height: 4rem;
+        border-radius: 12px;
+        cursor: pointer;
+        font-weight: bolder;
+        font-size: 24px;
+    }
+    
+}
